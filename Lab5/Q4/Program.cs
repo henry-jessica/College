@@ -10,20 +10,22 @@ namespace Q4
     {
         static void Main(string[] args)
         {
+            int time = 0, seconds = 0, hours = 0, minutes = 0;
+
+            Console.Write("Enter seconds: ");
+            time = int.Parse(Console.ReadLine());
 
 
+            hours = (time / 3600);
 
+            minutes = time % 3600 / 60;
+
+            seconds = time % 60;
+
+            Console.WriteLine("{0} seconds is equal to {1} hours, {2} minutes and {3} seconds", time, hours, minutes, seconds);
+
+
+            Console.ReadKey();
         }
     }
 }
-
-/*
- * Q4
-Write a program that reads an integer number of seconds, converts it to an equivalent number of hours, minutes and seconds and outputs the result.
-
-Example output:
-
-52,400 seconds is equal to 15 hours, 3 minutes and 20 seconds
-
-(Hint : % returns the remainder, e.g. x = 17 % 5;  assigns a value of  2 to x)
-/*/

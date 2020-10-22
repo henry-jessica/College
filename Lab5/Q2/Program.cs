@@ -10,21 +10,21 @@ namespace Q2
     {
         static void Main(string[] args)
         {
-            string emploName = "";
-            double salary = 0, tax = 0, payment = 0;
+                string emploName = "";
+                double salary = 0, tax = 0, payment = 0;
 
-            Console.Write("Enter employee’s name: ");
-            emploName = Console.ReadLine();
+                Console.Write("Enter employee’s name: ");
+                emploName = Console.ReadLine();
 
-            Console.Write("Enter employee’s salary: ");
-            salary = int.Parse(Console.ReadLine());
+                Console.Write("Enter employee’s salary: ");
+                salary = int.Parse(Console.ReadLine());
 
-            tax = (salary * 0.40);
-            payment = salary - tax;
+                tax = (salary * 0.40);
+                payment = salary - tax;
 
-            Console.WriteLine("With a tax rate of {0:p0}, tax is {1:c2} and take home pay is {2:c2}",0.40, tax, payment);
+                Console.WriteLine("With a tax rate of {0:p0}, tax is {1:c2} and take home pay is {2:c2}",0.40, tax, payment);
 
-            Console.ReadKey();
+                Console.ReadKey();
         }
     }
 }
