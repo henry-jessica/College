@@ -46,18 +46,4 @@ namespace Q3
         }
     }
 }
-/*
-Escreva um programa para calcular o Reembolso Mensal (até o centavo mais próximo) para as seguintes entradas:
-1. o número de pagamentos
-2. a taxa de juros - observe que este é um empréstimo a juros fixos
-3. o valor presente do empréstimo
 
-É importante manter a taxa por período e o número de períodos consistentes entre si na fórmula. 
-Se os pagamentos do empréstimo forem feitos mensalmente, a taxa por período precisa ser ajustada à taxa mensal 
-(r / 12) e o número de períodos seria o número de meses do empréstimo.
-
-Formate sua saída apropriadamente.
-
-(Hint x = Math.Pow(y,n) returns  yn to the variable x) – demo needed)
-
-    /*/
