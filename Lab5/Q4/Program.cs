@@ -17,9 +17,7 @@ namespace Q4
 
 
             hours = (time / 3600);
-
             minutes = time % 3600 / 60;
-
             seconds = time % 60;
 
             Console.WriteLine("{0} seconds is equal to {1} hours, {2} minutes and {3} seconds", time, hours, minutes, seconds);
