@@ -1,2 +1,2 @@
-# College First emester
+# College First Semester
  all programming work 
